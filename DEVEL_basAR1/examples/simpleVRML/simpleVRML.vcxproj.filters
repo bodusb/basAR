@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Actuator">
+      <UniqueIdentifier>{981abf53-f529-4414-881e-22a9ded81fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfraStructure">
+      <UniqueIdentifier>{8f36b5b3-1964-4cb1-8e61-3294106b2f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structure">
+      <UniqueIdentifier>{d8b1f063-decd-4a56-8ea1-0cb0d7d272e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior">
+      <UniqueIdentifier>{8f275579-b6d3-4723-aa38-64a521ad5660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serial">
+      <UniqueIdentifier>{9006056a-cddf-4ded-a70c-e3c8e6e47105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adaptation">
+      <UniqueIdentifier>{0d4e51f1-df96-438a-9e29-bb2e5d1106fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actuator.cpp">
+      <Filter>Actuator</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>InfraStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericItens.cpp">
+      <Filter>InfraStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="InfraARTKSM.cpp">
+      <Filter>InfraStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="InfraSource.cpp">
+      <Filter>InfraStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="InfraStructure.cpp">
+      <Filter>InfraStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioArpe.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="iObject3D.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="ipAction.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="ipObject.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="iPoint.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="ipPosition.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="iStatus.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="iVrml.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="ActuatorARTKSM.cpp">
+      <Filter>Actuator</Filter>
+    </ClCompile>
+    <ClCompile Include="Rules.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Arpe.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="simpleVRML.cpp" />
+    <ClCompile Include="serial.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="serialCommand.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="ipDist.cpp">
+      <Filter>Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="queueState.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapt.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="adaptTechnique.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="uLog.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="uProfileParam.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="uStaticParam.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="uIdent.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureAdaptationDef.cpp">
+      <Filter>Adaptation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActuatorARTKSM.h">
+      <Filter>Actuator</Filter>
+    </ClInclude>
+    <ClInclude Include="Actuator.h">
+      <Filter>Actuator</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>InfraStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericItens.h">
+      <Filter>InfraStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="InfraStructure.h">
+      <Filter>InfraStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="InfraARTKSM.h">
+      <Filter>InfraStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="InfraSource.h">
+      <Filter>InfraStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioArpe.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="iObject3D.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ipAction.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ipObject.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="iPoint.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ipPosition.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="iStatus.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="iVrml.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Rules.h">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Arpe.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="serial.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="serialCommand.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="ipDist.h">
+      <Filter>Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="queueState.h">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapt.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="adaptTechnique.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="uStaticParam.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="uLog.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="uProfileParam.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="uIdent.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureAdaptationDef.h">
+      <Filter>Adaptation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\bin\Data\config_base">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\bin\Data\config_transport">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\bin\Data\config_basar">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\bin\Data\config_behavior">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\bin\Data\app_caneta">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\bin\Data\App\app_arduino">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

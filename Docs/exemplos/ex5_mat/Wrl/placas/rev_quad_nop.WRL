@@ -1,0 +1,127 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 12, Revision 1,06
+# Date: Thu Oct 06 22:24:08 2011
+
+DEF Box01 Transform {
+  translation 0 15 0.3137
+  rotation 0 -0.7071 0.7071 -3.142
+  children [
+      Transform {
+        translation 0 0.25 0
+        children [
+          Shape {
+            appearance Appearance {
+material Material {
+                diffuseColor 1 1 1
+				ambientIntensity 2.0
+              }
+			          texture ImageTexture { 
+					  url "pl_cls1.gif"
+        }
+            }
+            geometry Box { size 30 0.5 30 }
+          }
+    ] }
+  ]
+}
+DEF V2Grp01 Transform {
+  translation 0 0 8.04
+  rotation -1 0 0 -1.571
+  children [
+  DEF V2Grp01-TIMER TimeSensor { loop TRUE cycleInterval 3.333 },
+    DEF Box02 Transform {
+      translation 0 0 0
+      children [
+      DEF Box02-POS-INTERP PositionInterpolator {
+        key [0, 0.03, 0.06, 0.09, 0.12, ]
+        keyValue [0 0 0, 0 0 -1.625, 0 0 -4.866, 0 0 -7.29, 0 0 -7.5, 
+          ] },
+      DEF Box02-ROT-INTERP OrientationInterpolator {
+        key [0, 0.03, 0.06, 0.09, 0.12, 0.15, 0.18, 0.21, 0.24, ]
+        keyValue [1 0 0 0, 0 1 0 -0.3404, 0 1 0 -1.019, 0 1 0 -1.527, 
+          0.2757 0.9209 0.2757 -1.653, -0.691 -0.2124 -0.6909 -3.56, 
+          -0.6258 0.4658 -0.6257 -2.27, 0.4975 0.7106 0.4975 -1.906, 
+          -1.495e-005 1 1.459e-005 -1.571, ] },
+        DEF V2Xfm01 Transform {
+          translation 0 0 -0.25
+          children [
+            DEF VBox01 Transform {
+              translation 0 0 0.25
+              rotation 1 0 0 -1.571
+              children [
+                  Transform {
+                    translation 0 0.25 0
+                    children [
+                      Shape {
+                        appearance Appearance {
+                          material Material {
+                            diffuseColor 0 1 0
+                            ambientIntensity 1.0
+                            specularColor 0 0 0
+                            shininess 0.06615
+                            transparency 0
+                          }
+                        }
+                        geometry Box { size 15 0.5 15 }
+                      }
+                ] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    DEF Cylinder01 Transform {
+      translation 0 0 0
+      scale 0 0 0
+      children [
+      DEF Cylinder01-SCALE-INTERP PositionInterpolator {
+        key [0, 0.03, 0.06, 0.09, 0.12, 0.15, 0.18, 0.21, ]
+        keyValue [0 0 0, 0.06098 0.06098 0, 0.2164 0.2164 0, 0.4252 0.4252 0, 
+          0.648 0.648 0, 0.8441 0.8441 0, 0.9722 0.9722 1.295e-005, 
+          1 1 1, ] },
+      DEF Cylinder01-SCALE-ORI-INTERP OrientationInterpolator {
+        key [0, 0.03, 0.06, 0.09, 0.12, 0.15, 0.18, 0.21, ]
+        keyValue [1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 
+          1 0 0 0, 1 0 0 0, 1 0 0 0, ] },
+        DEF V2Xfm02 Transform {
+          translation 0 0 0
+          scale 0 0 0
+          children [
+            DEF VCyl01 Transform {
+              translation 0 0 0
+              scale 0 0 0
+              children [
+                  Transform {
+                    translation 0 7.5 0
+                    children [
+                      Shape {
+                        appearance Appearance {
+                          material Material {
+                            diffuseColor 0 1 0
+                            ambientIntensity 1.0
+                            specularColor 0 0 0
+                            shininess 0.06615
+                            transparency 0
+                          }
+                        }
+                        geometry Cylinder { radius 7.5 height 15 }
+                      }
+                ] }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+ROUTE V2Grp01-TIMER.fraction_changed TO Box02-POS-INTERP.set_fraction
+ROUTE Box02-POS-INTERP.value_changed TO Box02.set_translation
+ROUTE V2Grp01-TIMER.fraction_changed TO Box02-ROT-INTERP.set_fraction
+ROUTE Box02-ROT-INTERP.value_changed TO Box02.set_rotation
+ROUTE V2Grp01-TIMER.fraction_changed TO Cylinder01-SCALE-INTERP.set_fraction
+ROUTE Cylinder01-SCALE-INTERP.value_changed TO Cylinder01.set_scale
+ROUTE V2Grp01-TIMER.fraction_changed TO Cylinder01-SCALE-ORI-INTERP.set_fraction
+ROUTE Cylinder01-SCALE-ORI-INTERP.value_changed TO Cylinder01.set_scaleOrientation
+}

@@ -1,0 +1,57 @@
+﻿Build started 23/11/2012 17:43:11.
+     1>Project "H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\simpleVRML.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\simpleVRML.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\Release\simpleVRML.exe) does not match the Linker's OutputFile property value (H:\AR\basAR\DEVEL_basAR1\bin\simpleVRML.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\..\..\bin\simpleVRML.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\..\..\lib /LIBPATH:H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\..\..\OpenVRML\lib /LIBPATH:H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\..\..\OpenVRML\dependencies\lib libARgsub.lib ws2_32.lib opengl32.lib glu32.lib glut32.lib libjpeg.lib libpng.lib zlib.lib libARvrml.lib openvrml.lib "openvrml-gl.lib" antlr.lib regex.lib libARvideo.lib libAR.lib libARgsub_lite.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrtd.lib /MANIFEST /ManifestFile:"Release\simpleVRML.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\Release\simpleVRML.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\simpleVRML.lib" /MACHINE:X86 Release\Action.obj
+         Release\Actuator.obj
+         Release\ActuatorARTKSM.obj
+         Release\Adapt.obj
+         Release\adaptTechnique.obj
+         Release\Arpe.obj
+         Release\AudioArpe.obj
+         Release\Ball.obj
+         Release\Base.obj
+         Release\ipDist.obj
+         Release\queueState.obj
+         Release\serialCommand.obj
+         Release\serial.obj
+         Release\Game.obj
+         Release\GenericItens.obj
+         Release\InfraARTKSM.obj
+         Release\InfraSource.obj
+         Release\InfraStructure.obj
+         Release\iObject3D.obj
+         Release\ipAction.obj
+         Release\ipObject.obj
+         Release\iPoint.obj
+         Release\ipPosition.obj
+         Release\iStatus.obj
+         Release\iVrml.obj
+         Release\Rules.obj
+         Release\simpleVRML.obj
+         Release\State.obj
+         Release\StructureAdaptationDef.obj
+         Release\uIdent.obj
+         Release\uLog.obj
+         Release\uProfileParam.obj
+         Release\User.obj
+         Release\uStaticParam.obj
+         H:\AR\basAR\DEVEL_basAR1\lib\libarvrml.lib
+         H:\AR\basAR\DEVEL_basAR1\lib\libAR.lib
+         H:\AR\basAR\DEVEL_basAR1\lib\libARgsub_lite.lib
+         H:\AR\basAR\DEVEL_basAR1\lib\libARvideo.lib
+         simpleVRML.vcxproj -> H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\Release\simpleVRML.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\..\..\bin\simpleVRML.exe;#1" /manifest Release\simpleVRML.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\simpleVRML.unsuccessfulbuild".
+         Touching "Release\simpleVRML.lastbuildstate".
+     1>Done Building Project "H:\AR\basAR\DEVEL_basAR1\examples\simpleVRML\simpleVRML.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

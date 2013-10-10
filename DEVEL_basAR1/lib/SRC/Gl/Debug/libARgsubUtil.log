@@ -1,0 +1,22 @@
+﻿Build started 12/07/2011 17:55:24.
+     1>Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\libARgsubUtil.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libARgsubUtil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt gsubUtil.c
+         gsubUtil.c
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\Debug\libARgsubUtil.lib) does not match the Library's OutputFile property value (C:\DEVEL\ARPE_DEVEL\lib\libARgsubUtild.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libARgsubUtil) does not match the Library's OutputFile property value (libARgsubUtild). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\..\..\libARgsubUtild.lib" /NOLOGO Debug\gsubUtil.obj
+         libARgsubUtil.vcxproj -> C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\Debug\libARgsubUtil.lib
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\libARgsubUtil.bsc" Debug\gsubUtil.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\libARgsubUtil.unsuccessfulbuild".
+         Touching "Debug\libARgsubUtil.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\libARgsubUtil.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.64

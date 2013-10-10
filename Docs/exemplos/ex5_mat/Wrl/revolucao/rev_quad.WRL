@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 12, Revision 1,06
+# MAX File: telas.max, Date: Fri Sep 16 19:09:53 2011
+
+DEF Plane01 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.5882 0.5882 0.5882
+          ambientIntensity 2.0
+          specularColor 0 0 0
+          shininess 0.145
+          transparency 0
+        }
+        texture ImageTexture {
+          url "rev_quad.gif"
+        }
+      }
+      geometry Box { size 30 0.1 30 }
+    }
+  ]
+}

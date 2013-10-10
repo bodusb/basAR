@@ -1,0 +1,8 @@
+
+# Objeto 1 
+ballGreen.wrl			# Endereço do objeto
+#Posicoes Iniciais em relação ao centro do marcador
+0.0 0.0 0.0								# Translation (x,y,z) em milimetros
+0.0 0.0 0.0 							# Rotation (x,y,z) em graus	
+0.50 0.50 0.50								# Scale (x,y,z) 
+

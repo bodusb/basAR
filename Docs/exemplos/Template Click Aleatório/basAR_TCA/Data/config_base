@@ -1,0 +1,142 @@
+BASE1								# Base name
+
+ARTKSM								# Base source type
+Data/Markers/base.patt				# Base marker
+58.0								# Marker width in milimeter 
+0.0 0.0								# Marker center
+USE_DEFAULT							# Marker cover (USE_DEFAULT to get default marker cover / NO_COVER to don't use a marker cover)
+
+NO_VISIBLESOUND						# Visible Sound, to disable use NO_VISIBLESOUND
+USE_DEFAULT							# Error sound, to disable use NO_ERRORSOUND
+
+wrl/action/status.dat				# Base Status
+
+16									# Number of Interesting Points
+
+ponto1
+DEFAULT_IPOINT
+Data/app/app_point1
+125.0 -80.0 0.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+ponto2
+DEFAULT_IPOINT
+Data/app/app_point2
+125.0 0.0 0.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+ponto3
+DEFAULT_IPOINT
+Data/app/app_point3
+125.0 80.0 0.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+ponto4
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto5
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto6
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto7
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto8
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto9
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto10
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto11
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto12
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto13
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto14
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+ponto15
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoReset
+DEFAULT_IPOINT
+Data/app/app_pointReset
+-5.0 110.0 0.0
+0.0 0.0 0.0
+1 1 1
+300.0

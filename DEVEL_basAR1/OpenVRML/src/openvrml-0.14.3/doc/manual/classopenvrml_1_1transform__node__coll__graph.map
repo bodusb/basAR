@@ -1,0 +1,15 @@
+base referer
+rect $classopenvrml_1_1grouping__node.html 57,108 217,127
+rect $classopenvrml_1_1child__node.html 69,17 205,36
+rect $classopenvrml_1_1viewpoint__node.html 241,108 407,127
+rect $classopenvrml_1_1node.html 344,471 445,489
+rect $classopenvrml_1_1scene.html 509,289 619,308
+rect $classopenvrml_1_1browser.html 396,199 516,217
+rect $classopenvrml_1_1node__class.html 167,289 308,308
+rect $structopenvrml_1_1browser_1_1event.html 431,108 591,127
+rect $classopenvrml_1_1node__ptr.html 559,17 684,36
+rect $classopenvrml_1_1field__value.html 381,17 517,36
+rect $classopenvrml_1_1script__node__class.html 265,380 447,399
+rect $classopenvrml_1_1node__type.html 105,380 241,399
+rect $classopenvrml_1_1scope__ptr.html 595,380 728,399
+rect $classopenvrml_1_1scope.html 659,471 768,489

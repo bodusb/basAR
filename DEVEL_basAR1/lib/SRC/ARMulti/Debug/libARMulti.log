@@ -1,0 +1,39 @@
+﻿Build started 12/07/2011 17:55:21.
+     1>Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\ARMulti\libARMulti.vcxproj" on node 4 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libARMulti.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DEVEL\ARPE_DEVEL\lib\SRC\ARMulti\../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt arMultiActivate.c arMultiGetTransMat.c arMultiReadConfigFile.c
+         arMultiActivate.c
+         arMultiGetTransMat.c
+         arMultiReadConfigFile.c
+     1>c:\devel\arpe_devel\lib\src\armulti\armultireadconfigfile.c(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\devel\arpe_devel\lib\src\armulti\armultireadconfigfile.c(33): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\devel\arpe_devel\lib\src\armulti\armultireadconfigfile.c(39): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\devel\arpe_devel\lib\src\armulti\armultireadconfigfile.c(47): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\devel\arpe_devel\lib\src\armulti\armultireadconfigfile.c(52): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\devel\arpe_devel\lib\src\armulti\armultireadconfigfile.c(60): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\DEVEL\ARPE_DEVEL\lib\SRC\ARMulti\Debug\libARMulti.lib) does not match the Library's OutputFile property value (C:\DEVEL\ARPE_DEVEL\lib\libARMultid.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libARMulti) does not match the Library's OutputFile property value (libARMultid). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\DEVEL\ARPE_DEVEL\lib\SRC\ARMulti\..\..\libARMultid.lib" /NOLOGO Debug\arMultiActivate.obj
+         Debug\arMultiGetTransMat.obj
+         Debug\arMultiReadConfigFile.obj
+         libARMulti.vcxproj -> C:\DEVEL\ARPE_DEVEL\lib\SRC\ARMulti\Debug\libARMulti.lib
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\libARMulti.bsc" Debug\arMultiActivate.sbr Debug\arMultiGetTransMat.sbr Debug\arMultiReadConfigFile.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\libARMulti.unsuccessfulbuild".
+         Touching "Debug\libARMulti.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\ARMulti\libARMulti.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.07

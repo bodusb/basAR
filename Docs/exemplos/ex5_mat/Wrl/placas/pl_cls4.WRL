@@ -1,0 +1,101 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 12, Revision 1,06
+# Date: Thu Oct 06 23:27:13 2011
+
+DEF fundo Transform {
+  translation 0 0 0
+  rotation -1 0 0 -1.571
+  children [
+      Transform {
+        translation 0 0.05 0
+        children [
+          Shape {
+            appearance Appearance {
+        material Material {
+          diffuseColor 0.5882 0.5882 0.5882
+          ambientIntensity 1.0
+          specularColor 0 0 0
+          shininess 0.145
+          transparency 0
+        }
+        texture ImageTexture {
+          url "pl_cls4.gif"
+        }
+            }
+            geometry Box { size 30 0.1 30 }
+          }
+    ] }
+  ]
+}
+DEF Box01 Transform {
+  translation 0 -15 7
+  children [
+  DEF Box01-TIMER TimeSensor { loop TRUE cycleInterval 1.3 },
+  DEF Box01-POS-INTERP PositionInterpolator {
+    key [0, 0.07692, 0.1538, 0.2308, 0.3077, 0.3846, ]
+    keyValue [0 -15 7, 0 -14.14 7, 0 -12.15 7, 0 -9.868 7, 0 -8.158 7, 
+      0 -7.756 7, ] },
+  DEF Box01-ROT-INTERP OrientationInterpolator {
+    key [0, 0.07692, 0.1538, 0.2308, 0.3077, 0.3846, 0.4615, 0.5385, 
+        ]
+    keyValue [1 0 0 0, 0 0 1 -0.1855, 0 0 1 -0.6182, 0 0 1 -1.113, 
+      0 0 1 -1.484, 0.1039 -0.1039 0.9891 -1.582, -0.7046 0.7046 -0.08399 -3.309, 
+      1 0 0 0, ] },
+  DEF Box01-SCALE-INTERP PositionInterpolator {
+    key [0, 0.4615, 0.5385, ]
+    keyValue [1 1 1, 1 1 1, 0 0 0, ] },
+  DEF Box01-SCALE-ORI-INTERP OrientationInterpolator {
+    key [0, 0.4615, 0.5385, ]
+    keyValue [1 0 0 0, 1 0 0 0, 1 0 0 0, ] },
+      Transform {
+        translation 0 0.115 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 1 0
+              }
+            }
+            geometry Box { size 10 0.23 10 }
+          }
+    ] }
+  ]
+ROUTE Box01-TIMER.fraction_changed TO Box01-POS-INTERP.set_fraction
+ROUTE Box01-POS-INTERP.value_changed TO Box01.set_translation
+ROUTE Box01-TIMER.fraction_changed TO Box01-ROT-INTERP.set_fraction
+ROUTE Box01-ROT-INTERP.value_changed TO Box01.set_rotation
+ROUTE Box01-TIMER.fraction_changed TO Box01-SCALE-INTERP.set_fraction
+ROUTE Box01-SCALE-INTERP.value_changed TO Box01.set_scale
+ROUTE Box01-TIMER.fraction_changed TO Box01-SCALE-ORI-INTERP.set_fraction
+ROUTE Box01-SCALE-ORI-INTERP.value_changed TO Box01.set_scaleOrientation
+}
+DEF Cylinder01 Transform {
+  translation 0.01221 -12.68 6.975
+  scale 0 0 0
+  children [
+  DEF Cylinder01-TIMER TimeSensor { loop TRUE cycleInterval 1.3 },
+  DEF Cylinder01-SCALE-INTERP PositionInterpolator {
+    key [0, 0.3846, 0.4615, 0.5385, ]
+    keyValue [0 0 0, 0 0 0, 1 0 1, 1 1 1, ] },
+  DEF Cylinder01-SCALE-ORI-INTERP OrientationInterpolator {
+    key [0, 0.3846, 0.4615, 0.5385, ]
+    keyValue [1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, ] },
+      Transform {
+        translation 0 5 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 1 0
+              }
+            }
+            geometry Cylinder { radius 5 height 10 }
+          }
+    ] }
+  ]
+ROUTE Cylinder01-TIMER.fraction_changed TO Cylinder01-SCALE-INTERP.set_fraction
+ROUTE Cylinder01-SCALE-INTERP.value_changed TO Cylinder01.set_scale
+ROUTE Cylinder01-TIMER.fraction_changed TO Cylinder01-SCALE-ORI-INTERP.set_fraction
+ROUTE Cylinder01-SCALE-ORI-INTERP.value_changed TO Cylinder01.set_scaleOrientation
+}

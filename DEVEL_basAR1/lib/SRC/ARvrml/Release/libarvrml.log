@@ -1,0 +1,38 @@
+﻿Build started 23/11/2012 17:43:03.
+     1>Project "H:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\libarvrml.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libarvrml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IH:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\..\..\..\include /IH:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\..\..\..\OpenVRML\include /IH:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\..\..\..\OpenVRML\dependencies\include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4099 /wd4290 /wd4800 /analyze- /errorReport:prompt arViewer.cpp arViewerCapi.cpp
+         arViewer.cpp
+         arViewerCapi.cpp
+     1>arViewerCapi.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>arViewerCapi.cpp(47): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>arViewerCapi.cpp(53): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>arViewerCapi.cpp(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>arViewerCapi.cpp(73): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>arViewerCapi.cpp(82): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>arViewerCapi.cpp(91): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>arViewerCapi.cpp(161): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(H:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\Release\libarvrml.lib) does not match the Library's OutputFile property value (H:\AR\basAR\DEVEL_basAR1\lib\libarvrml.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"H:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\..\..\libarvrml.lib" /NOLOGO Release\arViewer.obj
+         Release\arViewerCapi.obj
+         libarvrml.vcxproj -> H:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\Release\libarvrml.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libarvrml.unsuccessfulbuild".
+         Touching "Release\libarvrml.lastbuildstate".
+     1>Done Building Project "H:\AR\basAR\DEVEL_basAR1\lib\SRC\ARvrml\libarvrml.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24

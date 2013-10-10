@@ -1,0 +1,9 @@
+base referer
+rect $classopenvrml_1_1vrml97__node_1_1abstract__light__node.html 284,218 559,237
+rect $classopenvrml_1_1vrml97__node_1_1abstract__child__node.html 143,107 420,126
+rect $classopenvrml_1_1sffloat.html 577,107 684,126
+rect $classopenvrml_1_1field__value.html 509,17 645,35
+rect $classopenvrml_1_1sfbool.html 444,107 553,126
+rect $classopenvrml_1_1sfcolor.html 7,107 119,126
+rect $classopenvrml_1_1sfvec3f.html 708,107 825,126
+rect $classopenvrml_1_1vec3f.html 713,17 820,35

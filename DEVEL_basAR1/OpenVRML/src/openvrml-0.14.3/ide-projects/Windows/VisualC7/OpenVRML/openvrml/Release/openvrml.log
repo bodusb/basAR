@@ -1,0 +1,101 @@
+﻿Build started 17/11/2011 11:09:20.
+     1>Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml\openvrml.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\openvrml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\..\src\libopenvrml /I..\..\..\..\..\lib\antlr /I..\..\..\..\..\lib\regex /I..\..\..\..\..\..\..\dependencies\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D XMD_H /D "PACKAGE_VERSION=\"0.13.99\"" /D OPENVRML_ENABLE_IMAGETEXTURE_NODE /D OPENVRML_ENABLE_GZIP /D OPENVRML_ENABLE_PNG_TEXTURES /D OPENVRML_ENABLE_JPG_TEXTURES /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4226 /wd4250 /wd4290 /wd4355 /wd4800 /analyze- /errorReport:prompt ..\..\..\..\..\src\libopenvrml\openvrml\basetypes.cpp ..\..\..\..\..\src\libopenvrml\openvrml\bounding_volume.cpp ..\..\..\..\..\src\libopenvrml\openvrml\browser.cpp ..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp ..\..\..\..\..\src\libopenvrml\openvrml\field.cpp ..\..\..\..\..\src\libopenvrml\openvrml\field_value_ptr.cpp ..\..\..\..\..\src\libopenvrml\openvrml\frustum.cpp ..\..\..\..\..\src\libopenvrml\openvrml\img.cpp ..\..\..\..\..\src\libopenvrml\openvrml\node.cpp ..\..\..\..\..\src\libopenvrml\openvrml\node_class_ptr.cpp ..\..\..\..\..\src\libopenvrml\openvrml\node_ptr.cpp ..\..\..\..\..\src\libopenvrml\openvrml\node_type_ptr.cpp ..\..\..\..\..\src\libopenvrml\openvrml\rendering_context.cpp ..\..\..\..\..\src\libopenvrml\openvrml\scope.cpp ..\..\..\..\..\src\libopenvrml\openvrml\scope_ptr.cpp ..\..\..\..\..\src\libopenvrml\openvrml\script.cpp ..\..\..\..\..\src\libopenvrml\openvrml\ScriptJDK.cpp ..\..\..\..\..\src\libopenvrml\openvrml\system.cpp ..\..\..\..\..\src\libopenvrml\openvrml\viewer.cpp ..\..\..\..\..\src\libopenvrml\openvrml\vrml97node.cpp /Zm400 
+         basetypes.cpp
+         bounding_volume.cpp
+         browser.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>..\..\..\..\..\src\libopenvrml\openvrml\browser.cpp(612): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sys/timeb.h(124) : see declaration of '_ftime64'
+         doc.cpp
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(188): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(190): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(221): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(223): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(248): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(277): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(300): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(413): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(437): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(468): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(1064): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp(1075): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         field.cpp
+         field_value_ptr.cpp
+         frustum.cpp
+         img.cpp
+     1>..\..\..\..\..\src\libopenvrml\openvrml\img.cpp(164): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\img.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         node.cpp
+         node_class_ptr.cpp
+         node_ptr.cpp
+         node_type_ptr.cpp
+         rendering_context.cpp
+         scope.cpp
+         scope_ptr.cpp
+         script.cpp
+         ScriptJDK.cpp
+         system.cpp
+     1>..\..\..\..\..\src\libopenvrml\openvrml\system.cpp(187): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(344) : see declaration of 'tmpnam'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\system.cpp(189): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\io.h(240) : see declaration of '_open'
+     1>..\..\..\..\..\src\libopenvrml\openvrml\system.cpp(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         viewer.cpp
+         vrml97node.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\openvrml.lib" /NOLOGO Release\basetypes.obj
+         Release\bounding_volume.obj
+         Release\browser.obj
+         Release\doc.obj
+         Release\field.obj
+         Release\field_value_ptr.obj
+         Release\frustum.obj
+         Release\img.obj
+         Release\node.obj
+         Release\node_class_ptr.obj
+         Release\node_ptr.obj
+         Release\node_type_ptr.obj
+         Release\rendering_context.obj
+         Release\scope.obj
+         Release\scope_ptr.obj
+         Release\script.obj
+         Release\ScriptJDK.obj
+         Release\system.obj
+         Release\viewer.obj
+         Release\vrml97node.obj
+         openvrml.vcxproj -> C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml\Release\openvrml.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\openvrml.unsuccessfulbuild".
+         Touching "Release\openvrml.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml\openvrml.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:02.18

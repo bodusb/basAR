@@ -1,0 +1,8 @@
+
+# Objeto 1 
+ssd.wrl			# Endereço do objeto
+#Posicoes Iniciais em relação ao centro do marcador
+20.0 0.0 0.0								# Translation (x,y,z) em milimetros
+90.0 180.0 5.0 							# Rotation (x,y,z) em graus	
+0.5 0.5 0.5							# Scale (x,y,z) 
+

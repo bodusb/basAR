@@ -1,0 +1,108 @@
+﻿Build started 17/11/2011 09:54:19.
+     1>Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\antlr\antlr.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\antlr.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\..\lib\antlr /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\..\lib\antlr\src\ASTFactory.cpp ..\..\..\..\..\lib\antlr\src\ASTNULLType.cpp ..\..\..\..\..\lib\antlr\src\ASTRefCount.cpp ..\..\..\..\..\lib\antlr\src\BaseAST.cpp ..\..\..\..\..\lib\antlr\src\BitSet.cpp ..\..\..\..\..\lib\antlr\src\CharBuffer.cpp ..\..\..\..\..\lib\antlr\src\CharScanner.cpp ..\..\..\..\..\lib\antlr\src\CommonAST.cpp ..\..\..\..\..\lib\antlr\src\CommonASTWithHiddenTokens.cpp ..\..\..\..\..\lib\antlr\src\CommonHiddenStreamToken.cpp ..\..\..\..\..\lib\antlr\src\CommonToken.cpp ..\..\..\..\..\lib\antlr\src\InputBuffer.cpp ..\..\..\..\..\lib\antlr\src\LLkParser.cpp ..\..\..\..\..\lib\antlr\src\MismatchedCharException.cpp ..\..\..\..\..\lib\antlr\src\MismatchedTokenException.cpp ..\..\..\..\..\lib\antlr\src\NoViableAltException.cpp ..\..\..\..\..\lib\antlr\src\NoViableAltForCharException.cpp ..\..\..\..\..\lib\antlr\src\Parser.cpp ..\..\..\..\..\lib\antlr\src\RecognitionException.cpp ..\..\..\..\..\lib\antlr\src\String.cpp ..\..\..\..\..\lib\antlr\src\Token.cpp ..\..\..\..\..\lib\antlr\src\TokenBuffer.cpp ..\..\..\..\..\lib\antlr\src\TokenStreamBasicFilter.cpp ..\..\..\..\..\lib\antlr\src\TokenStreamHiddenTokenFilter.cpp ..\..\..\..\..\lib\antlr\src\TokenStreamSelector.cpp ..\..\..\..\..\lib\antlr\src\TreeParser.cpp
+         ASTFactory.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         ASTNULLType.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         ASTRefCount.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         BaseAST.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         BitSet.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         CharBuffer.cpp
+         CharScanner.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>..\..\..\..\..\lib\antlr\src\CharScanner.cpp(29): warning C4355: 'this' : used in base member initializer list
+     1>..\..\..\..\..\lib\antlr\src\CharScanner.cpp(41): warning C4355: 'this' : used in base member initializer list
+     1>..\..\..\..\..\lib\antlr\src\CharScanner.cpp(53): warning C4355: 'this' : used in base member initializer list
+         CommonAST.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         CommonASTWithHiddenTokens.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         CommonHiddenStreamToken.cpp
+         CommonToken.cpp
+         InputBuffer.cpp
+         LLkParser.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         MismatchedCharException.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         MismatchedTokenException.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         NoViableAltException.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         NoViableAltForCharException.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         Parser.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         RecognitionException.cpp
+         String.cpp
+     1>..\..\..\..\..\lib\antlr\src\String.cpp(26): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+         Compiling...
+         Token.cpp
+         TokenBuffer.cpp
+         TokenStreamBasicFilter.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         TokenStreamHiddenTokenFilter.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         TokenStreamSelector.cpp
+     1>..\..\..\..\..\lib\antlr\src\TokenStreamSelector.cpp(58): warning C4101: 'r' : unreferenced local variable
+         TreeParser.cpp
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/ASTRefCount.hpp(93): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(20): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+     1>C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\lib\antlr\antlr/BitSet.hpp(21): warning C4231: nonstandard extension used : 'extern' before template explicit instantiation
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\antlr.lib" /NOLOGO Release\ASTFactory.obj
+         Release\ASTNULLType.obj
+         Release\ASTRefCount.obj
+         Release\BaseAST.obj
+         Release\BitSet.obj
+         Release\CharBuffer.obj
+         Release\CharScanner.obj
+         Release\CommonAST.obj
+         Release\CommonASTWithHiddenTokens.obj
+         Release\CommonHiddenStreamToken.obj
+         Release\CommonToken.obj
+         Release\InputBuffer.obj
+         Release\LLkParser.obj
+         Release\MismatchedCharException.obj
+         Release\MismatchedTokenException.obj
+         Release\NoViableAltException.obj
+         Release\NoViableAltForCharException.obj
+         Release\Parser.obj
+         Release\RecognitionException.obj
+         Release\String.obj
+         Release\Token.obj
+         Release\TokenBuffer.obj
+         Release\TokenStreamBasicFilter.obj
+         Release\TokenStreamHiddenTokenFilter.obj
+         Release\TokenStreamSelector.obj
+         Release\TreeParser.obj
+         antlr.vcxproj -> C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\antlr\Release\antlr.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\antlr.unsuccessfulbuild".
+         Touching "Release\antlr.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\antlr\antlr.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.11

@@ -1,0 +1,15 @@
+base referer
+rect $classopenvrml_1_1vrml97__node_1_1group__node.html 380,375 607,393
+rect $classopenvrml_1_1vrml97__node_1_1abstract__base.html 443,225 685,244
+rect $classopenvrml_1_1node.html 572,108 673,127
+rect $classopenvrml_1_1child__node.html 641,180 777,199
+rect $classopenvrml_1_1scene.html 349,17 459,36
+rect $classopenvrml_1_1scope__ptr.html 556,17 689,36
+rect $classopenvrml_1_1node__type.html 713,17 849,36
+rect $classopenvrml_1_1grouping__node.html 621,271 781,289
+rect $classopenvrml_1_1bounding__sphere.html 63,271 239,289
+rect $classopenvrml_1_1bounding__volume.html 7,180 183,199
+rect $classopenvrml_1_1vec3f.html 207,180 313,199
+rect $classopenvrml_1_1sfvec3f.html 263,271 380,289
+rect $classopenvrml_1_1mfnode.html 404,271 519,289
+rect $classopenvrml_1_1field__value.html 337,180 473,199

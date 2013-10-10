@@ -1,0 +1,6 @@
+2				        	# Numero de objetos relacionados neste ponto de interesse
+
+# Objeto 1 
+MODEL3D VRML Wrl/peca2.dat			# Endereço do objeto que descreve o modelo
+
+MODEL3D VRML Wrl/peca5.dat

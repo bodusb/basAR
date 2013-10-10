@@ -1,0 +1,24 @@
+﻿Build started 27/07/2011 14:39:06.
+     1>Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\libARgsub_lite.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\libARgsub_lite.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt gsub_lite.c
+         gsub_lite.c
+     1>c:\devel\arpe_devel\lib\src\gl\gsub_lite.c(678): warning C4090: 'function' : different 'const' qualifiers
+     1>c:\devel\arpe_devel\lib\src\gl\gsub_lite.c(737): warning C4090: 'function' : different 'const' qualifiers
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\Debug\libARgsub_lite.lib) does not match the Library's OutputFile property value (C:\DEVEL\ARPE_DEVEL\lib\libARgsub_lited.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libARgsub_lite) does not match the Library's OutputFile property value (libARgsub_lited). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\..\..\libARgsub_lited.lib" /NOLOGO Debug\gsub_lite.obj
+         libARgsub_lite.vcxproj -> C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\Debug\libARgsub_lite.lib
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug\libARgsub_lite.bsc" Debug\gsub_lite.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\libARgsub_lite.unsuccessfulbuild".
+         Touching "Debug\libARgsub_lite.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\libARgsub_lite.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.73

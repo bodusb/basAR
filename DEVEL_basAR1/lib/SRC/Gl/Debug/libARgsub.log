@@ -1,0 +1,17 @@
+﻿Build started 12/07/2011 17:55:21.
+     1>Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\libARgsub.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libARgsub.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt gsub.c
+         gsub.c
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\Debug\libARgsub.lib) does not match the Library's OutputFile property value (C:\DEVEL\ARPE_DEVEL\lib\libARgsubd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libARgsub) does not match the Library's OutputFile property value (libARgsubd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\..\..\libARgsubd.lib" /NOLOGO Debug\gsub.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'Debug\gsub.obj'
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\Gl\libARgsub.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.95

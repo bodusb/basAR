@@ -1,0 +1,7 @@
+base referer
+rect $classopenvrml_1_1vrml97__node_1_1abstract__geometry__node.html 19,9 323,28
+rect $classopenvrml_1_1sfnode.html 115,96 227,115
+rect $classopenvrml_1_1sffloat.html 117,193 224,212
+rect $classopenvrml_1_1mffloat.html 115,261 227,280
+rect $classopenvrml_1_1sfbool.html 116,373 225,392
+rect $classopenvrml_1_1sfint32.html 115,456 227,475

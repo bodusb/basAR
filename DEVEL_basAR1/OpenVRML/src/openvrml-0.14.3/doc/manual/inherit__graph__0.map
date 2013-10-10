@@ -1,0 +1,4 @@
+base referer
+rect $classopenvrml_1_1bad__url.html 19,26 136,45
+rect $classopenvrml_1_1invalid__url.html 204,5 337,24
+rect $classopenvrml_1_1unreachable__url.html 187,48 355,66

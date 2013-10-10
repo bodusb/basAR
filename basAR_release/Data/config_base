@@ -1,0 +1,22 @@
+BASE1								# Base name
+
+ARTKSM								# Base source type
+Data/Markers/base.patt				# Base marker
+58.0								# Marker width in milimeter 
+0.0 0.0								# Marker center
+USE_DEFAULT							# Marker cover (USE_DEFAULT to get default marker cover / NO_COVER to don't use a marker cover)
+
+NO_VISIBLESOUND						# Visible Sound, to disable use NO_VISIBLESOUND
+USE_DEFAULT							# Error sound, to disable use NO_ERRORSOUND
+
+wrl/action/status.dat				# Base Status
+
+1									# Number of Points
+
+CANETA 
+DEFAULT_IPOINT
+Data/app_caneta
+-50.0 -70.0 0.0
+25.0 0.0 0.0
+1 1 1
+900.0

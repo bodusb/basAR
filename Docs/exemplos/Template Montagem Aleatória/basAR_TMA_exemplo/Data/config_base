@@ -1,0 +1,262 @@
+BASE1								# Base name
+
+ARTKSM								# Base source type
+Data/Markers/base.patt				# Base marker
+58.0								# Marker width in milimeter 
+0.0 0.0								# Marker center
+USE_DEFAULT							# Marker cover (USE_DEFAULT to get default marker cover / NO_COVER to don't use a marker cover)
+
+NO_VISIBLESOUND						# Visible Sound, to disable use NO_VISIBLESOUND
+USE_DEFAULT							# Error sound, to disable use NO_ERRORSOUND
+
+wrl/action/status.dat				# Base Status
+
+31									# Number of Interesting Points
+
+pontoMovel1
+DEFAULT_IPOINT
+Data/app/app_pointM1
+125.0 -80.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+pontoMovel2
+DEFAULT_IPOINT
+Data/app/app_pointM2
+125.0 0.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+pontoMovel3
+DEFAULT_IPOINT
+Data/app/app_pointM3
+125.0 80.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+pontoMovel4
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel5
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel6
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel7
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel8
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel9
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel10
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel11
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel12
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel13
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel14
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoMovel15
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao1
+DEFAULT_IPOINT
+Data/app/app_pointA1
+50.0 -80.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+pontoColisao2
+DEFAULT_IPOINT
+Data/app/app_pointA2
+50.0 0.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+pontoColisao3
+DEFAULT_IPOINT
+Data/app/app_pointA3
+50.0 80.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+pontoColisao4
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao5
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao6
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao7
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao8
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao9
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao10
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao11
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao12
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao13
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao14
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoColisao15
+DEFAULT_IPOINT
+NO_OBJECT
+0.0 0.0 0.0
+0.0 0.0 0.0
+0 0 0
+0.0
+
+pontoReset
+DEFAULT_IPOINT
+Data/app/app_pointReset
+-5.0 110.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0

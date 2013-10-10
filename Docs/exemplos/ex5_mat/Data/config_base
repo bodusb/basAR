@@ -1,0 +1,72 @@
+BASE1								# Base name
+
+ARTKSM								# Base source type
+Data/Markers/base.patt				# Base marker
+58.0								# Marker width in milimeter 
+0.0 0.0								# Marker center
+USE_DEFAULT							# Marker cover (USE_DEFAULT to get default marker cover / NO_COVER to don't use a marker cover)
+
+NO_VISIBLESOUND						# Visible Sound, to disable use NO_VISIBLESOUND
+USE_DEFAULT							# Error sound, to disable use NO_ERRORSOUND
+
+wrl/action/status.dat				# Base Status
+
+7									# Number of Interesting Points
+
+circulo
+DEFAULT_IPOINT
+Data/app/app_circ
+130.0 -100.0 60.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+
+quadrado
+DEFAULT_IPOINT
+Data/app/app_quad
+130.0 0.0 60.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+prisma
+DEFAULT_IPOINT
+Data/app/app_pris
+130.0 100.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+Extrusao
+DEFAULT_IPOINT
+Data/app/app_ext
+70.0 -50.0 60.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+Revolucao
+DEFAULT_IPOINT
+Data/app/app_rev
+70.0 50.0 60.0
+0.0 0.0 0.0
+1 1 1
+300.0
+
+placas
+DEFAULT_IPOINT
+data/app/app_placas
+0.0 0.0 2.0
+0.0 0.0 0.0
+1 1 1
+0
+
+Reset
+DEFAULT_IPOINT
+Data/app/app_reset
+0.0 110.0 50.0
+0.0 0.0 0.0
+1 1 1
+300.0
+

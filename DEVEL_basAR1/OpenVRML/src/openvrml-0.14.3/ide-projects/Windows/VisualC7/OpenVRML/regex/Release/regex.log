@@ -1,0 +1,51 @@
+﻿Build started 17/11/2011 09:56:26.
+     1>Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\regex.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\regex.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _LIB /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\..\lib\regex\regcomp.c ..\..\..\..\..\lib\regex\regerror.c ..\..\..\..\..\lib\regex\regexec.c ..\..\..\..\..\lib\regex\regfree.c
+         regcomp.c
+     1>..\..\..\..\..\lib\regex\regcomp.c(676): warning C4101: 'c' : unreferenced local variable
+     1>..\..\..\..\..\lib\regex\regcomp.c(892): warning C4101: 'c' : unreferenced local variable
+     1>..\..\..\..\..\lib\regex\regcomp.c(1156): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\lib\regex\regcomp.c(1187): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\lib\regex\regcomp.c(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\lib\regex\regcomp.c(1234): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\..\lib\regex\regcomp.c(1263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         regerror.c
+     1>..\..\..\..\..\lib\regex\regerror.c(116): warning C4114: same type qualifier used more than once
+     1>..\..\..\..\..\lib\regex\regerror.c(133): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\..\..\..\lib\regex\regerror.c(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\..\..\..\lib\regex\regerror.c(145): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\..\..\..\lib\regex\regerror.c(147): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>..\..\..\..\..\lib\regex\regerror.c(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\..\..\..\lib\regex\regerror.c(166): warning C4101: 'p' : unreferenced local variable
+     1>..\..\..\..\..\lib\regex\regerror.c(165): warning C4101: 'siz' : unreferenced local variable
+         regexec.c
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(225): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(282): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(283): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(225): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(282): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(283): warning C4018: '<=' : signed/unsigned mismatch
+         regfree.c
+         Generating Code...
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(689): warning C4715: 'sbackref' : not all control paths return a value
+     1>c:\devel\arpe_devel\openvrml\src\openvrml-0.14.3\lib\regex\engine.c(689): warning C4715: 'lbackref' : not all control paths return a value
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\regex.lib" /NOLOGO Release\regcomp.obj
+         Release\regerror.obj
+         Release\regexec.obj
+         Release\regfree.obj
+         regex.vcxproj -> C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\Release\regex.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\regex.unsuccessfulbuild".
+         Touching "Release\regex.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\regex\regex.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

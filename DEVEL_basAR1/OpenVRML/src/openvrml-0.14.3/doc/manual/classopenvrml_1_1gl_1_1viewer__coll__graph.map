@@ -1,0 +1,7 @@
+base referer
+rect $classopenvrml_1_1viewer.html 101,9 213,27
+rect $structopenvrml_1_1gl_1_1viewer_1_1light__info.html 65,66 249,85
+rect $classopenvrml_1_1quatf.html 107,134 208,153
+rect $classopenvrml_1_1color.html 107,202 208,221
+rect $classopenvrml_1_1node.html 107,270 208,289
+rect $classopenvrml_1_1gl_1_1viewer_1_1modelview__matrix__stack.html 17,338 297,357

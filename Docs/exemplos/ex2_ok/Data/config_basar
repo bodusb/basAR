@@ -1,0 +1,22 @@
+1BASAR - Behavioral Authoring System for Augmented Reality
+
+# Standard definitions
+VRML wrl/action/ballBlue.dat		# Holding 
+VRML Wrl/Action/ballGreen.dat		# Canwork
+VRML Wrl/Action/ballRed.dat			# CannotWork
+VRML Wrl/action/tampa.dat			# Marker Cover
+Audio/explosion.wav 0.5				# Error sound, to disable use NO_ERRORSOUND
+
+NO_BACKTRACK		# Background Sound, to disable use NO_BACKTRACK
+NO_STARTSOUND		# Opening Sound, to disable use NO_STARTSOUND
+
+Data/config_rules					# Base rule Machine 
+
+# Bases
+1									# Number of bases
+# Base Base1
+Data/config_base					# Base configuration file address
+
+# Actuators
+1									# Number of actuators
+ARTKSM Data/config_transport

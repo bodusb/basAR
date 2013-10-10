@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libAR", "lib\SRC\AR\libAR.vcxproj", "{191F78D2-7A53-4EAF-94E9-433DF5496E6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libARMulti", "lib\SRC\ARMulti\libARMulti.vcxproj", "{6BB655FE-B823-4BE4-BDC9-FD3738FF82BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libARgsub", "lib\SRC\Gl\libARgsub.vcxproj", "{1CB7F08A-A8E5-457B-A589-9878F126601D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libARgsubUtil", "lib\SRC\Gl\libARgsubUtil.vcxproj", "{81A146C4-A7ED-462D-ADF3-FE93E82F2B9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libARgsub_lite", "lib\SRC\Gl\libARgsub_lite.vcxproj", "{8AAAFC7D-0CF2-4E59-BEEA-DD4398CA55BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libARvideo", "lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj", "{B5E62882-360E-46B2-A97F-50443BB795E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libarvrml", "lib\SRC\ARvrml\libarvrml.vcxproj", "{C90F035F-437C-4285-BBCA-8DDC70582356}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleVRML", "examples\simpleVRML\simpleVRML.vcxproj", "{7B5EFC13-7883-82CC-7D72-732240F68F29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release (Intel)|Win32 = Release (Intel)|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{191F78D2-7A53-4EAF-94E9-433DF5496E6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{191F78D2-7A53-4EAF-94E9-433DF5496E6E}.Debug|Win32.Build.0 = Debug|Win32
+		{191F78D2-7A53-4EAF-94E9-433DF5496E6E}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{191F78D2-7A53-4EAF-94E9-433DF5496E6E}.Release|Win32.ActiveCfg = Release|Win32
+		{191F78D2-7A53-4EAF-94E9-433DF5496E6E}.Release|Win32.Build.0 = Release|Win32
+		{6BB655FE-B823-4BE4-BDC9-FD3738FF82BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BB655FE-B823-4BE4-BDC9-FD3738FF82BC}.Debug|Win32.Build.0 = Debug|Win32
+		{6BB655FE-B823-4BE4-BDC9-FD3738FF82BC}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{6BB655FE-B823-4BE4-BDC9-FD3738FF82BC}.Release|Win32.ActiveCfg = Release|Win32
+		{6BB655FE-B823-4BE4-BDC9-FD3738FF82BC}.Release|Win32.Build.0 = Release|Win32
+		{1CB7F08A-A8E5-457B-A589-9878F126601D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CB7F08A-A8E5-457B-A589-9878F126601D}.Debug|Win32.Build.0 = Debug|Win32
+		{1CB7F08A-A8E5-457B-A589-9878F126601D}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{1CB7F08A-A8E5-457B-A589-9878F126601D}.Release|Win32.ActiveCfg = Release|Win32
+		{1CB7F08A-A8E5-457B-A589-9878F126601D}.Release|Win32.Build.0 = Release|Win32
+		{81A146C4-A7ED-462D-ADF3-FE93E82F2B9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81A146C4-A7ED-462D-ADF3-FE93E82F2B9B}.Debug|Win32.Build.0 = Debug|Win32
+		{81A146C4-A7ED-462D-ADF3-FE93E82F2B9B}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{81A146C4-A7ED-462D-ADF3-FE93E82F2B9B}.Release|Win32.ActiveCfg = Release|Win32
+		{81A146C4-A7ED-462D-ADF3-FE93E82F2B9B}.Release|Win32.Build.0 = Release|Win32
+		{8AAAFC7D-0CF2-4E59-BEEA-DD4398CA55BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AAAFC7D-0CF2-4E59-BEEA-DD4398CA55BF}.Debug|Win32.Build.0 = Debug|Win32
+		{8AAAFC7D-0CF2-4E59-BEEA-DD4398CA55BF}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{8AAAFC7D-0CF2-4E59-BEEA-DD4398CA55BF}.Release|Win32.ActiveCfg = Release|Win32
+		{8AAAFC7D-0CF2-4E59-BEEA-DD4398CA55BF}.Release|Win32.Build.0 = Release|Win32
+		{B5E62882-360E-46B2-A97F-50443BB795E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5E62882-360E-46B2-A97F-50443BB795E3}.Debug|Win32.Build.0 = Debug|Win32
+		{B5E62882-360E-46B2-A97F-50443BB795E3}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{B5E62882-360E-46B2-A97F-50443BB795E3}.Release|Win32.ActiveCfg = Release|Win32
+		{B5E62882-360E-46B2-A97F-50443BB795E3}.Release|Win32.Build.0 = Release|Win32
+		{C90F035F-437C-4285-BBCA-8DDC70582356}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C90F035F-437C-4285-BBCA-8DDC70582356}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{C90F035F-437C-4285-BBCA-8DDC70582356}.Release (Intel)|Win32.Build.0 = Release|Win32
+		{C90F035F-437C-4285-BBCA-8DDC70582356}.Release|Win32.ActiveCfg = Release|Win32
+		{7B5EFC13-7883-82CC-7D72-732240F68F29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B5EFC13-7883-82CC-7D72-732240F68F29}.Release (Intel)|Win32.ActiveCfg = Release|Win32
+		{7B5EFC13-7883-82CC-7D72-732240F68F29}.Release (Intel)|Win32.Build.0 = Release|Win32
+		{7B5EFC13-7883-82CC-7D72-732240F68F29}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

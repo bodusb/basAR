@@ -1,0 +1,25 @@
+﻿Build started 27/07/2011 14:39:06.
+     1>Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libARvideo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\Debug\libARvideo.dll) does not match the Linker's OutputFile property value (C:\DEVEL\ARPE_DEVEL\bin\libARvideod.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(libARvideo) does not match the Linker's OutputFile property value (libARvideod). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\..\bin\libARvideod.dll" /NOLOGO /LIBPATH:C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\..\DSVL\lib\ DSVLd.lib comsupp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libARvideo.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\libARvideo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\libARvideod.lib" /MACHINE:X86 /DLL Debug\videoWin32DirectShow.obj
+         LINK : C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\..\bin\libARvideod.dll not found or not built by the last incremental link; performing full link
+            Creating library C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\libARvideod.lib and object C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\libARvideod.exp
+         libARvideo.vcxproj -> C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\Debug\libARvideo.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\..\..\..\bin\libARvideod.dll;#2" /manifest Debug\libARvideo.dll.intermediate.manifest
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\libARvideo.unsuccessfulbuild".
+         Touching "Debug\libARvideo.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.08

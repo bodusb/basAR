@@ -1,0 +1,56 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 12, Revision 1,06
+# Date: Thu Oct 06 11:00:24 2011
+
+DEF Cylinder01 Transform {
+  translation 0 0 0
+  scale 0 1 0
+  children [
+  DEF Cylinder01-TIMER TimeSensor { loop TRUE cycleInterval 0.6333 },
+  DEF Cylinder01-SCALE-INTERP PositionInterpolator {
+    key [0, 0.1579, 0.3158, 0.4737, 0.6316, 0.7895, 0.9474, 1, ]
+    keyValue [0 1 0, 0.216 1 0.216, 0.648 1 0.648, 0.972 1 0.972, 
+      0.8738 1 0.8738, 0.417 1 0.417, 0.03429 1 0.03429, 
+      0 1 0, ] },
+  DEF Cylinder01-SCALE-ORI-INTERP OrientationInterpolator {
+    key [0, 0.1579, 0.3158, 0.4737, 0.6316, 0.7895, 0.9474, 1, ]
+    keyValue [1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 
+      1 0 0 0, 1 0 0 0, ] },
+      Transform {
+        translation 0 0.05 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 0
+				ambientIntensity 1.0	
+              }
+            }
+            geometry Cylinder { radius 15 height 0.1 }
+          }
+    ] }
+  ]
+ROUTE Cylinder01-TIMER.fraction_changed TO Cylinder01-SCALE-INTERP.set_fraction
+ROUTE Cylinder01-SCALE-INTERP.value_changed TO Cylinder01.set_scale
+ROUTE Cylinder01-TIMER.fraction_changed TO Cylinder01-SCALE-ORI-INTERP.set_fraction
+ROUTE Cylinder01-SCALE-ORI-INTERP.value_changed TO Cylinder01.set_scaleOrientation
+}
+DEF Cylinder02 Transform {
+  translation 0 0 0
+  children [
+      Transform {
+        translation 0 0.25 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 0 0
+				ambientIntensity 1.0	
+              }
+            }
+            geometry Cylinder { radius 10 height 0.5 }
+          }
+    ] }
+  ]
+}

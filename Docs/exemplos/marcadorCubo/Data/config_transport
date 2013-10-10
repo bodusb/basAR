@@ -1,0 +1,15 @@
+# File describing the ARTKSM Actuator
+ARTKSM1									# Actuator name (No spaces are allowed)
+
+# Single ARToolKit Marker configuration
+Data/Markers/pa.patt					# Marker
+36.0									# Width(mm)
+0.0 0.0									# Central Position of the marker
+VRML Wrl/action/tampaAct.dat								# Marker cover (USE_DEFAULT to get default marker cover / NO_COVER to don't use a marker cover)
+
+VRML wrl/Action/mao.dat					# Symbolic model to represent the actuator 
+
+# Point were the action occors on the ARTSM Actuator
+DEFAULT_IPOINT							# Point model (DEFAULT_IPOINT to get default actuator)
+20.0 0.0 0.0					# Translation (x,y,z) (mm)
+400.0							# Action radius of the point

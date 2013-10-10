@@ -1,0 +1,10 @@
+base referer
+rect $classopenvrml_1_1vrml97__node_1_1abstract__base.html 19,9 261,28
+rect $classopenvrml_1_1viewpoint__node.html 57,60 223,78
+rect $classopenvrml_1_1mat4f.html 87,146 193,165
+rect $classopenvrml_1_1sftime.html 85,214 195,233
+rect $classopenvrml_1_1sfstring.html 83,282 197,301
+rect $classopenvrml_1_1sffloat.html 87,350 193,369
+rect $classopenvrml_1_1sfrotation.html 76,418 204,437
+rect $classopenvrml_1_1sfbool.html 85,501 195,520
+rect $classopenvrml_1_1sfvec3f.html 81,569 199,588

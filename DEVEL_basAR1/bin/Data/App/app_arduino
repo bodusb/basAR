@@ -1,0 +1,23 @@
+COM15 # ARDUINO ACESSE COM
+
+# ARDUINO LOOKUP TABLE
+# THE NUMBERS 00-09, and 255 are RESERVED to Configuration and Test.  10-254
+# TABLE FORMAT:   REQUEST_NUMBER REQUEST_NAME <NEXT_STATE>
+
+# CONFIGURATION AND TEST COMMANDS (DO NOT CHANGE THESE REQUEST_NAMEs, ONLY THE REQUEST_NUMBERs)
+
+1 aliveTest
+2 aliveAnswer
+3 intRequest
+4 readRequest
+5 readRequestAnswer
+
+# USER COMMANDS
+
+# DEVICE 1 - Light
+10	lightOFF
+11	lightON
+
+# DEVICE 2 - Button
+
+20 	BotaoFoiPressionado 5

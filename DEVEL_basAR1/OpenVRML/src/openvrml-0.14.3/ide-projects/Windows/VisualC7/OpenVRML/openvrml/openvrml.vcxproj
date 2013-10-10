@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E5287CD2-4BAC-4341-AF28-A1F9C0F5949C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm400 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src\libopenvrml;..\..\..\..\..\lib\antlr;..\..\..\..\..\lib\regex;..\..\..\..\..\..\..\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;PACKAGE_VERSION="0.13.99";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4226;4250;4290;4355;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)openvrml.lib</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\cygwin\home\bmcdaniel\src\openvrml\openvrml\src\openvrml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm400 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\..\..\..\src\libopenvrml;..\..\..\..\..\lib\antlr;..\..\..\..\..\lib\regex;..\..\..\..\..\..\..\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;XMD_H;PACKAGE_VERSION="0.13.99";OPENVRML_ENABLE_IMAGETEXTURE_NODE;OPENVRML_ENABLE_GZIP;OPENVRML_ENABLE_PNG_TEXTURES;OPENVRML_ENABLE_JPG_TEXTURES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4226;4250;4290;4355;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)openvrml.lib</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\cygwin\home\bmcdaniel\src\openvrml\openvrml\src\openvrml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\basetypes.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\bounding_volume.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\browser.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\doc.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\field.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\field_value_ptr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\frustum.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\img.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\node.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\node_class_ptr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\node_ptr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\node_type_ptr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\rendering_context.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\scope.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\scope_ptr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\script.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\ScriptJDK.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\system.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\viewer.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\libopenvrml\openvrml\vrml97node.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\basetypes.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\bounding_volume.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\browser.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\common.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\doc.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\field.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\field_value_ptr.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\frustum.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\img.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\node.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\node_class_ptr.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\node_ptr.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\node_type_ptr.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\private.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\rendering_context.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\scope.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\scope_ptr.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\script.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\ScriptJDK.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\system.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\viewer.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\vrml97node.h" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\Vrml97Parser.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\libopenvrml\openvrml\Vrml97ParserTokenTypes.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\libopenvrml\openvrml\Vrml97Parser.g" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

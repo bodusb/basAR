@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B5EFC13-7883-82CC-7D72-732240F68F29}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\OpenVRML\include;$(ProjectDir)..\..\OpenVRML\dependencies\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OPENVRML_ENABLE_IMAGETEXTURE_NODE;OPENVRML_ENABLE_GZIP;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;opengl32.lib;glu32.lib;glut32.lib;libjpeg.lib;libpng.lib;zlib.lib;libarvrmld.lib;openvrml.lib;openvrml-gl.lib;antlr.lib;regex.lib;libARvideod.lib;libARd.lib;libARgsub_lited.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(ProjectDir)..\..\bin\$(ProjectName)d.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib;$(ProjectDir)..\..\OpenVRML\lib;$(ProjectDir)..\..\OpenVRML\dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcd.lib;libcmt.lib;libcmtd.lib;msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\OpenVRML\include;$(ProjectDir)..\..\OpenVRML\dependencies\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libARgsub.lib;ws2_32.lib;opengl32.lib;glu32.lib;glut32.lib;libjpeg.lib;libpng.lib;zlib.lib;libARvrml.lib;openvrml.lib;openvrml-gl.lib;antlr.lib;regex.lib;libARvideo.lib;libAR.lib;libARgsub_lite.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(ProjectDir)..\..\bin\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\lib;$(ProjectDir)..\..\OpenVRML\lib;$(ProjectDir)..\..\OpenVRML\dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcd.lib;libcmtd.lib;libcmt.lib;msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Actuator.cpp" />
+    <ClCompile Include="ActuatorARTKSM.cpp" />
+    <ClCompile Include="Adapt.cpp" />
+    <ClCompile Include="adaptTechnique.cpp" />
+    <ClCompile Include="Arpe.cpp" />
+    <ClCompile Include="AudioArpe.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="ipDist.cpp" />
+    <ClCompile Include="queueState.cpp" />
+    <ClCompile Include="serialCommand.cpp" />
+    <ClCompile Include="serial.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GenericItens.cpp" />
+    <ClCompile Include="InfraARTKSM.cpp" />
+    <ClCompile Include="InfraSource.cpp" />
+    <ClCompile Include="InfraStructure.cpp" />
+    <ClCompile Include="iObject3D.cpp" />
+    <ClCompile Include="ipAction.cpp" />
+    <ClCompile Include="ipObject.cpp" />
+    <ClCompile Include="iPoint.cpp" />
+    <ClCompile Include="ipPosition.cpp" />
+    <ClCompile Include="iStatus.cpp" />
+    <ClCompile Include="iVrml.cpp" />
+    <ClCompile Include="Rules.cpp" />
+    <ClCompile Include="simpleVRML.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StructureAdaptationDef.cpp" />
+    <ClCompile Include="uIdent.cpp" />
+    <ClCompile Include="uLog.cpp" />
+    <ClCompile Include="uProfileParam.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="uStaticParam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Actuator.h" />
+    <ClInclude Include="ActuatorARTKSM.h" />
+    <ClInclude Include="Adapt.h" />
+    <ClInclude Include="adaptTechnique.h" />
+    <ClInclude Include="Arpe.h" />
+    <ClInclude Include="AudioArpe.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="ipDist.h" />
+    <ClInclude Include="queueState.h" />
+    <ClInclude Include="serialCommand.h" />
+    <ClInclude Include="serial.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GenericItens.h" />
+    <ClInclude Include="InfraARTKSM.h" />
+    <ClInclude Include="InfraSource.h" />
+    <ClInclude Include="InfraStructure.h" />
+    <ClInclude Include="iObject3D.h" />
+    <ClInclude Include="ipAction.h" />
+    <ClInclude Include="ipObject.h" />
+    <ClInclude Include="iPoint.h" />
+    <ClInclude Include="ipPosition.h" />
+    <ClInclude Include="iStatus.h" />
+    <ClInclude Include="iVrml.h" />
+    <ClInclude Include="Rules.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StructureAdaptationDef.h" />
+    <ClInclude Include="uIdent.h" />
+    <ClInclude Include="uLog.h" />
+    <ClInclude Include="uProfileParam.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="uStaticParam.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\SRC\ARvrml\libarvrml.vcxproj">
+      <Project>{c90f035f-437c-4285-bbca-8ddc70582356}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\SRC\AR\libAR.vcxproj">
+      <Project>{191f78d2-7a53-4eaf-94e9-433df5496e6e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\SRC\Gl\libARgsub_lite.vcxproj">
+      <Project>{8aaafc7d-0cf2-4e59-beea-dd4398ca55bf}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj">
+      <Project>{b5e62882-360e-46b2-a97f-50443bb795e3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\bin\Data\App\app_arduino" />
+    <None Include="..\..\bin\Data\app_caneta" />
+    <None Include="..\..\bin\Data\config_basar" />
+    <None Include="..\..\bin\Data\config_base" />
+    <None Include="..\..\bin\Data\config_behavior" />
+    <None Include="..\..\bin\Data\config_transport" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

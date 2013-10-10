@@ -1,0 +1,18 @@
+﻿Build started 17/11/2011 09:56:19.
+     1>Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml-gl\openvrml-gl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\openvrml-gl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\..\..\..\src\libopenvrml-gl" /I..\..\..\..\..\src\libopenvrml /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _LIB /D HAVE_WINDOWS_H /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4099 /wd4250 /wd4290 /wd4800 /analyze- /errorReport:prompt "..\..\..\..\..\src\libopenvrml-gl\openvrml\gl\viewer.cpp"
+         viewer.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Release\openvrml-gl.lib" /NOLOGO Release\viewer.obj
+         openvrml-gl.vcxproj -> C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml-gl\Release\openvrml-gl.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\openvrml-gl.unsuccessfulbuild".
+         Touching "Release\openvrml-gl.lastbuildstate".
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\OpenVRML\src\openvrml-0.14.3\ide-projects\Windows\VisualC7\OpenVRML\openvrml-gl\openvrml-gl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.63

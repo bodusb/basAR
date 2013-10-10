@@ -1,0 +1,73 @@
+﻿Build started 27/07/2011 14:45:16.
+     1>Project "C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\simpleVRML.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\simpleVRML.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\Debug\simpleVRML.exe) does not match the Linker's OutputFile property value (C:\DEVEL\ARPE_DEVEL\bin\simpleVRMLd.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(simpleVRML) does not match the Linker's OutputFile property value (simpleVRMLd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\..\..\bin\simpleVRMLd.exe" /NOLOGO /LIBPATH:C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\..\..\lib /LIBPATH:C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\..\..\OpenVRML\lib /LIBPATH:C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\..\..\OpenVRML\dependencies\lib ws2_32.lib opengl32.lib glu32.lib glut32.lib libjpeg.lib libpng.lib zlib.lib libarvrmld.lib openvrml.lib "openvrml-gl.lib" antlr.lib regex.lib libARvideod.lib libARd.lib libARgsub_lited.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:"Debug\simpleVRML.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\Debug\simpleVRML.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\simpleVRML.lib" /MACHINE:X86 Debug\Action.obj
+         Debug\Actuator.obj
+         Debug\ActuatorARTKSM.obj
+         Debug\Arpe.obj
+         Debug\AudioArpe.obj
+         Debug\Ball.obj
+         Debug\Base.obj
+         Debug\Game.obj
+         Debug\GenericItens.obj
+         Debug\InfraARTKSM.obj
+         Debug\InfraSource.obj
+         Debug\InfraStructure.obj
+         Debug\iObject3D.obj
+         Debug\ipAction.obj
+         Debug\ipObject.obj
+         Debug\iPoint.obj
+         Debug\ipPosition.obj
+         Debug\iStatus.obj
+         Debug\iVrml.obj
+         Debug\Rules.obj
+         Debug\simpleVRML.obj
+         Debug\State.obj
+         C:\DEVEL\ARPE_DEVEL\lib\libarvrmld.lib
+         C:\DEVEL\ARPE_DEVEL\lib\libARd.lib
+         C:\DEVEL\ARPE_DEVEL\lib\libARgsub_lited.lib
+         C:\DEVEL\ARPE_DEVEL\lib\libARvideod.lib
+     1>openvrml.lib(browser.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(viewer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(node_class_ptr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(field_value_ptr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(basetypes.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(node_ptr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(node_type_ptr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(scope_ptr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(node.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(field.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(scope.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(script.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(vrml97node.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(rendering_context.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(doc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(frustum.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(bounding_volume.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(img.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml.lib(system.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>openvrml-gl.lib(viewer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(Parser.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(ASTRefCount.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(RecognitionException.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(NoViableAltException.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(LLkParser.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(TokenBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(CommonToken.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(Token.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(BitSet.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(MismatchedTokenException.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(String.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>antlr.lib(BaseAST.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ActuatorARTKSM.obj
+     1>C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\..\..\bin\simpleVRMLd.exe : fatal error LNK1319: 32 mismatches detected
+     1>Done Building Project "C:\DEVEL\ARPE_DEVEL\examples\simpleVRML\simpleVRML.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79

@@ -1,0 +1,12 @@
+base referer
+rect $classopenvrml_1_1vrml97__node_1_1abstract__base.html 7,452 249,471
+rect $classopenvrml_1_1node.html 95,380 196,399
+rect $classopenvrml_1_1color__node.html 273,452 412,471
+rect $classopenvrml_1_1scene.html 41,17 151,36
+rect $classopenvrml_1_1browser.html 125,108 245,127
+rect $classopenvrml_1_1node__class.html 115,199 256,217
+rect $classopenvrml_1_1scope__ptr.html 271,289 404,308
+rect $classopenvrml_1_1scope.html 287,380 396,399
+rect $classopenvrml_1_1node__type.html 95,289 231,308
+rect $classopenvrml_1_1mfcolor.html 436,452 553,471
+rect $classopenvrml_1_1field__value.html 427,380 563,399

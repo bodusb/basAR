@@ -1,0 +1,8 @@
+base referer
+rect $classopenvrml_1_1vrml97__node_1_1directional__light__node.html 7,295 292,313
+rect $classopenvrml_1_1vrml97__node_1_1point__light__node.html 316,295 569,313
+rect $classopenvrml_1_1vrml97__node_1_1spot__light__node.html 593,295 844,313
+rect $classopenvrml_1_1vrml97__node_1_1abstract__child__node.html 304,156 581,175
+rect $classopenvrml_1_1vrml97__node_1_1abstract__base.html 215,87 457,105
+rect $classopenvrml_1_1node.html 392,17 493,36
+rect $classopenvrml_1_1child__node.html 481,87 617,105

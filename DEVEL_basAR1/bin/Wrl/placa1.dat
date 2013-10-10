@@ -1,0 +1,5 @@
+placa1.wrl			# Endereço do objeto
+0.0 0.0 0.0								# Translation (x,y,z) em milimetros
+90.0 90.0 0.0 							# Rotation (x,y,z) em graus	
+5 5 5
+

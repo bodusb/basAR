@@ -1,0 +1,18 @@
+﻿Build started 23/11/2012 17:43:07.
+     1>Project "H:\AR\basAR\DEVEL_basAR1\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libARvideo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(H:\AR\basAR\DEVEL_basAR1\lib\SRC\VideoWin32DirectShow\Release\libARvideo.dll) does not match the Linker's OutputFile property value (H:\AR\basAR\DEVEL_basAR1\bin\libARvideo.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         libARvideo.vcxproj -> H:\AR\basAR\DEVEL_basAR1\lib\SRC\VideoWin32DirectShow\Release\libARvideo.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\libARvideo.unsuccessfulbuild".
+         Touching "Release\libARvideo.lastbuildstate".
+     1>Done Building Project "H:\AR\basAR\DEVEL_basAR1\lib\SRC\VideoWin32DirectShow\libARvideo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

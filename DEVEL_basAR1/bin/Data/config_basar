@@ -1,0 +1,29 @@
+# This file contains the general setup to the applicaiton
+BASAR - Behavioral Authoring System for Augmented Reality
+WINDOWED						#  WINDOWED / FULLSCREEN (FULLSCREEN 600 480 32 0) / PROJECTION
+
+# Standard definitions
+VRML wrl/action/ballBlue.dat		# Holding 
+VRML Wrl/Action/ballGreen.dat		# Canwork
+VRML Wrl/Action/ballRed.dat			# CannotWork
+VRML Wrl/action/tampa.dat			# Marker Cover
+Audio/explosion.wav 0.5				# Error sound, to disable use NO_ERRORSOUND
+
+
+NO_BACKTRACK	# Background Sound, to disable use NO_BACKTRACK
+NO_STARTSOUND     ONCE  0.5	# Opening Sound, to disable use NO_STARTSOUND
+
+Data/config_behavior					# Base rule Machine 
+
+# Bases
+1									# Number of bases
+# Base Base1
+Data/config_base					# Base configuration file address
+
+# Actuators
+1									# Number of actuators
+# Actuator ARTOOLKIT MARKER	
+ARTKSM Data/config_transport		# Actuator ARToolKit Marker
+
+# User
+Data/User/christopher.dat			# Filename, to disable use NO_USER
